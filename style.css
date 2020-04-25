@@ -1,0 +1,32 @@
+.node {
+    stroke: rgb(175, 171, 171);
+    stroke-width: 1.5px;
+}
+
+.link {
+    fill: none;
+    stroke: darkseagreen;
+    stroke-width: 1px;
+    opacity: 0.4;
+}
+
+.selected {
+    stroke: red;
+    stroke-width: 2px;
+    opacity: 1;
+}
+
+text#tooltip {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+    font-weight: 900;
+  }
+
+text#circle-tooltip {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+    font-weight: 900;
+}
+  
