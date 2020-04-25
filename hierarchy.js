@@ -153,7 +153,7 @@ function events(g, selection, raise) {
         })
             .transition()
             .duration(500)
-            .style("opacity", 0.3);
+            .style("opacity", 0.1);
     });
 
     // remove tooltip text on mouseout
